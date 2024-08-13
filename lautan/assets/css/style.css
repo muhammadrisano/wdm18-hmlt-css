@@ -1,0 +1,84 @@
+/* 
+ font-family: "Poppins", sans-serif;
+ font-family: "Inter", sans-serif;
+*/
+html, body{
+    padding: 0;
+    margin: 0;
+}
+#hero{
+    height: 100vh;
+    background-image: url('../images/bg-lautan.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    /* background-color: lightgreen; */
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+
+}
+.hero-title{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 500;
+    color: #355C80;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 16px;
+}
+.hero-content{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.wrapper-form{
+    /* background-color: lightpink; */
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+}
+.btn, .phone{
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 8px;
+    border: none;
+   
+}
+.btn{
+    background-color: #355C80;
+    color: white;
+    margin-top: 18px;
+}
+.phone{
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* navbar */
+.navbar{
+    background-color: lightblue;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.item a{
+    text-decoration: none;
+    padding: 18px 28px;
+    display: inline-block;
+    color: #355C80;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* desktop */
+        html, body{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            width: 980px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: lightpink;
+        }
+        .title{
+            text-align: center;
+            font-size: 28px;
+        }
+        /* untuk table */
+        @media screen and (max-width: 768px){
+            .container{
+                width: 680px;
+                background-color: lightblue;
+            }
+        }
+
+        /*untuk mobile  */
+        @media screen and (max-width: 576px){
+            .container{
+                width: 100%;
+                padding-left: 20px;
+                padding-right: 20px;
+                box-sizing: border-box;
+                background-color: lightgreen;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">
+            belajar programming sulit tapi menyenangkan
+        </h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit eius blanditiis explicabo delectus voluptate odit doloremque, quasi minus, dolor dignissimos sunt? Sit, qui iure veritatis fugit a labore sequi, ut saepe tempora autem officia laboriosam placeat temporibus. Explicabo, distinctio reiciendis reprehenderit id possimus cumque adipisci error ducimus vel quod totam iure omnis iste corrupti consectetur, qui numquam repellendus optio provident quasi vitae sequi dolorem soluta! Illo fuga dolorum, nemo maiores harum corporis odio inventore vitae necessitatibus. Ex magni voluptatem autem atque, porro dolorum voluptates perspiciatis quos quidem ipsa? Doloremque et perspiciatis maxime sed, maiores quasi quas eaque facilis dolor mollitia!</p>
+    </div>
+</body>
+</html>

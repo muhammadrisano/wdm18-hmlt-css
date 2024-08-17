@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #text -> nilai spec = 100 */
+        #text{
+            color: yellow;
+        }
+        /* .content -> nilai spec = 10 */
+        .content{
+            color: blue;
+            font-size: 10px;
+        }
+        /* p -> nilai spec = 1 */
+        p{
+            color: red;
+            font-size: 64px;
+        }
+       
+        /* berapakah nilai specificity selektor yg saya gunakan? */
+         /* 100  + 10 + 1 = 111*/
+        #header .container h1{
+            color: red;
+        }
+        /* 1 + 1 + 10 +10 = 22 */
+        section div.container .title{
+            color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <p id="text" class="content">helo world</p>
+    <section id="header">
+        <div class="container">
+            <h1 class="title">
+                saya belajar html dan css
+            </h1>
+        </div>
+    </section>
+</body>
+</html>
